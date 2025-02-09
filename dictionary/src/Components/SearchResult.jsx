@@ -1,8 +1,10 @@
-function SearchResult({ result }) {
+function SearchResult({ result, searchInput }) {
+  const copySearchInput = searchInput;
   return (
-    <>
-      <h1 className="search-result">{result}</h1>
-    </>
+    <section className="search-result">
+      <h2>{copySearchInput}</h2>
+      <h3>{result}</h3>
+    </section>
   );
 }
 
