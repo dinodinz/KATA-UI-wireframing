@@ -10,7 +10,7 @@ function WordOfTheDay() {
 
   useEffect(() => {
     newWordOfDay();
-    const interval = setInterval(newWordOfDay, 2000);
+    const interval = setInterval(newWordOfDay, 60000);
     return () => clearInterval(interval);
   }, []);
 
