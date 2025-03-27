@@ -1,16 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import Headers from "./Components/Headerz.jsx";
-import Homepage from "./Components/Homepage.jsx";
+import Header from "./Components/Header.jsx";
+import Main from "./Components/Main.jsx";
 import Footer from "./Components/Footer.jsx";
 
 function App() {
   return (
     <>
-      <Headers />
-      <Homepage />
+      <Header />
+      <Main />
       <Footer />
     </>
   );

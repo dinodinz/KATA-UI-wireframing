@@ -1,6 +1,6 @@
 import Nav from "./Nav.jsx";
 
-function Headers() {
+function Header() {
   return (
     <header className="header">
       <h1>Dictionary</h1>
@@ -9,4 +9,4 @@ function Headers() {
   );
 }
 
-export default Headers;
+export default Header;

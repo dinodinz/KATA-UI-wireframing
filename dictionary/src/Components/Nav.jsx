@@ -1,8 +1,10 @@
 function Nav() {
   return (
-    <>
-      <h1>Nav</h1>
-    </>
+    <nav className="nav-bar">
+      <h2>
+        <a href="https://google.com">About us</a>
+      </h2>
+    </nav>
   );
 }
 
